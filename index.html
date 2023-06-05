@@ -1,0 +1,81 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ducument</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <style>
+    body {
+      background-image: url('an.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  </style>
+  <body>
+    <div id="liveAlertPlaceholder"></div>
+<div class="card" style="width: 18rem;">
+    <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Sơn Tùng - MTP</h5>
+      <p class="card-text">MAKING MY WAY
+        Đây là à đĩa đơn tiếng Anh thứ hai trong sự nghiệp của Sơn Tùng M-TP<br>
+        Bài hát được phát hành vào ngày 5 tháng 5 năm 2023<br>
+
+      </p>
+      <a href="#" id="customButton1" class="btn btn-primary">Good</a>
+      <a href="#" id="customButton2" class="btn btn-primary">bad</a>
+      <a href="https://youtu.be/niPkap1ozUA" id="customButton3" class="btn btn-primary">YT</a>
+    </div>
+  </div>
+  
+  <script>  
+    document.getElementById('customButton1').addEventListener('click', function(event) {
+      event.preventDefault(); // 阻止按鈕的默認行為 Ngăn chặn hành vi mặc định của nút
+      appendAlert('good!', 'success');
+    });
+    document.getElementById('customButton2').addEventListener('click', function(event) {
+      event.preventDefault(); // 阻止按鈕的默認行為 Ngăn chặn hành vi mặc định của nút
+      appendAlert('bad!', 'success');
+    });
+  </script>
+
+<script>
+    //這段JavaScript代碼是為了在網頁上動態創建和顯示一個Bootstrap的警告（alert）元件。讓我們逐行解釋：Đoạn mã JavaScript này dùng để tạo và hiển thị một thành phần cảnh báo (alert) của Bootstrap trên trang web một cách động. Hãy giải thích từng dòng:
+    //這行代碼獲取了ID為liveAlertPlaceholder的HTML元件。這個元件將作為警告訊息的容器。Dòng mã này lấy phần tử HTML có ID là 'liveAlertPlaceholder'. Phần tử này sẽ làm nơi chứa cho các thông báo cảnh báo.
+    const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+
+    //這是一個函數，用於創建一個新的警告訊息並將其添加到alertPlaceholder元件中。這個函數接受兩個參數：message（警告訊息的文本）和type（警告訊息的類型，例如'success'、'danger'等，這將影響警告訊息的顏色）。Đây là một hàm được sử dụng để tạo một thông báo cảnh báo mới và thêm nó vào phần tử 'alertPlaceholder'. Hàm này nhận hai tham số: 'message' (văn bản của thông báo cảnh báo) và 'type' (loại thông báo cảnh báo, chẳng hạn như 'success', 'danger', v.v., điều này sẽ ảnh hưởng đến màu sắc của thông báo cảnh báo).
+    const appendAlert = (message, type) => {
+      //創建一個新的div元素並將其賦值給變量wrapper。Tạo một phần tử 'div' mới và gán nó cho biến 'wrapper'.
+      const wrapper = document.createElement('div')
+
+      //將wrapper的HTML內容設置為一個字串陣列，陣列的每一個元素都是一部分的HTML代碼。字串陣列使用join('')方法連接起來，創建了完整的HTML代碼。Đặt nội dung HTML của 'wrapper' thành một mảng chuỗi, mỗi phần tử của mảng là một phần của mã HTML. Mảng chuỗi được nối lại với nhau bằng phương thức 'join('')', tạo ra mã HTML hoàn chỉnh.
+      wrapper.innerHTML = [
+        //HTML代碼裡包含了一個div元素，其類別為alert alert-${type} alert-dismissible，這裡的${type}將被警告的類型（如'success'，'danger'等）替換。這個div元素包含了警告訊息的文本（${message}）和一個可點擊的按鈕，用於關閉警告。Mã HTML bao gồm một phần tử 'div' có class là 'alert alert-${type} alert-dismissible', nơi '${type}' sẽ được thay thế bằng loại cảnh báo (như 'success', 'danger', v.v.). Phần tử 'div' này chứa văn bản của thông báo cảnh báo ('${message}') và một nút có thể nhấn để đóng thông báo cảnh báo.
+        `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+        `   <div>${message}</div>`,
+        '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+        '</div>'
+      ].join('')
+      //將新創建的wrapper元素添加到alertPlaceholder元素中。這將導致新的警告訊息顯示在網頁上。Thêm phần tử 'wrapper' mới tạo vào phần tử 'alertPlaceholder'. Điều này sẽ khiến thông báo cảnh báo mới xuất hiện trên trang web.
+      alertPlaceholder.append(wrapper)
+    }
+
+    //這行代碼獲取了ID為liveAlertBtn的HTML元件。這個元件將用於觸發新警告訊息的顯示。Dòng mã này lấy phần tử HTML có ID là 'liveAlertBtn'. Phần tử này sẽ được sử dụng để kích hoạt việc hiển thị thông báo cảnh báo mới.
+    const alertTrigger = document.getElementById('liveAlertBtn')
+
+    //這個條件語句檢查liveAlertBtn元件是否存在。如果存在，則為該元件添加一個點擊事件監聽器，當用戶點擊該元件時，將調用appendAlert函數創建一個新的警告訊息。Câu lệnh điều kiện này kiểm tra xem phần tử 'liveAlertBtn' có tồn tại hay không. Nếu có, nó thêm một trình nghe sự kiện click vào phần tử đó, và khi người dùng click vào phần tử, hàm 'appendAlert' sẽ được gọi để tạo một thông báo cảnh báo mới.
+    if (alertTrigger) {
+      alertTrigger.addEventListener('click', () => {
+        appendAlert('Nice, you triggered this alert message!', 'success')
+      })
+    }
+</script>
+  </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
